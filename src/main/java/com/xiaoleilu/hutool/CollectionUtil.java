@@ -219,8 +219,8 @@ public class CollectionUtil {
 	 * @return ArrayList对象
 	 */
 	@SafeVarargs
-	public static <T> ArrayList<T> newArrayList(T... values) {
-		return (ArrayList<T>) Arrays.asList(values);
+	public static <T> List<T> newArrayList(T... values) {
+		return Arrays.asList(values);
 	}
 	
 	/**
